@@ -1,0 +1,16 @@
+{
+  "displayName": "audit-to-archive",
+  "description": "Archive tenancy audit logs into the audit-archive bucket",
+  "compartmentId": "<compartment-ocid>",
+  "source": {
+    "kind": "logging",
+    "logGroupId": "<audit-log-group-ocid>"
+  },
+  "target": {
+    "kind": "objectStorage",
+    "bucket": "audit-archive",
+    "compartmentId": "<compartment-ocid>",
+    "batchSizeInMBs": 100,
+    "batchTimeInSec": 420
+  }
+}
