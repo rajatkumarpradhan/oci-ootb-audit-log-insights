@@ -1,0 +1,5 @@
+{
+  "name": "audit-archive",
+  "compartmentId": "<compartment-ocid>",
+  "publicAccessType": "NoPublicAccess"
+}
