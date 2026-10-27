@@ -1,0 +1,5 @@
+{"datetime": 1793059200000, "logType": "com.oraclecloud.audit", "data": {"eventName": "LaunchInstance", "eventSource": "compute", "identity": {"principalName": "alice@example.com", "ipAddress": "203.0.113.10"}, "request": {"action": "POST", "path": "/20160918/instances"}, "response": {"status": "200"}}}
+{"datetime": 1793062800000, "logType": "com.oraclecloud.audit", "data": {"eventName": "DeleteBucket", "eventSource": "objectstorage", "identity": {"principalName": "bob@example.com", "ipAddress": "198.51.100.7"}, "request": {"action": "DELETE", "path": "/n/ns/b/demo"}, "response": {"status": "403"}}}
+not json at all
+{"datetime": "2026-10-28T01:00:00Z", "logType": "com.oraclecloud.audit", "data": {"eventName": "GetInstance", "eventSource": "compute", "identity": {"principalName": "alice@example.com", "ipAddress": "203.0.113.10"}, "request": {"action": "GET", "path": "/20160918/instances/ocid1.x"}, "response": {"status": "200"}}}
+{"unrelated": true}
