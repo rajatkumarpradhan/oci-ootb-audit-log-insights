@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="240" font-family="monospace" font-size="13">
+  <rect x="10" y="30" width="160" height="60" rx="8" fill="#1e3a5f" stroke="#4a90d9"/>
+  <text x="90" y="55" fill="#fff" text-anchor="middle">OCI Audit</text>
+  <text x="90" y="72" fill="#9cc3e8" text-anchor="middle">always-on API log</text>
+  <rect x="230" y="30" width="160" height="60" rx="8" fill="#1e3a5f" stroke="#4a90d9"/>
+  <text x="310" y="55" fill="#fff" text-anchor="middle">Connector Hub</text>
+  <text x="310" y="72" fill="#9cc3e8" text-anchor="middle">built-in mover (free)</text>
+  <rect x="450" y="30" width="170" height="60" rx="8" fill="#1e3a5f" stroke="#4a90d9"/>
+  <text x="535" y="55" fill="#fff" text-anchor="middle">Object Storage</text>
+  <text x="535" y="72" fill="#9cc3e8" text-anchor="middle">audit-archive bucket</text>
+  <rect x="450" y="150" width="170" height="60" rx="8" fill="#223" stroke="#7a7"/>
+  <text x="535" y="175" fill="#fff" text-anchor="middle">analyzer (this repo)</text>
+  <text x="535" y="192" fill="#9c9" text-anchor="middle">offline insights report</text>
+  <path d="M170 60 L228 60" stroke="#4a90d9" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M390 60 L448 60" stroke="#4a90d9" stroke-width="2" marker-end="url(#a)"/>
+  <path d="M535 92 L535 148" stroke="#7a7" stroke-width="2" stroke-dasharray="5 3" marker-end="url(#a)"/>
+  <text x="542" y="125" fill="#9c9">download</text>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto">
+    <path d="M0,0 L7,3 L0,6 z" fill="#4a90d9"/></marker></defs>
+  <text x="10" y="225" fill="#888">built-in OCI services (deploy) ---- offline code (local)</text>
+</svg>
